@@ -126,6 +126,7 @@ Stop blabbering
 
 Basically what we are doing is trying to prevent any Quantum computer from being able to crack our encryption between the Host, client, etc when it comes to our infrastructure
 as technology advances, we must advance with it to make a better, more private, and secure product
+
 ————————————————
 
 References and sources
@@ -144,13 +145,18 @@ Summary: Argonhosting is a cheap hosting service that advertises powerful ddos p
 
 
 ————————————————
+
 MISTAKE 1 Ip history 
 They tried protecting their server by putting cloudflare UAM on it but it makes no difference because we are able to look up the IP History of the domain and you can clearly see the origin server that hosted the server before cloudflare was put on 
+
 ————————————————
+
 MISTAKE 2 UFW 
 They didn’t enable UFW so the host/domain can easily be found with related servers including the origin servers 
 This allows us to get a lot of information of the host without doing any work but if it had UFW properly setup it would be a different story 
+
 ————————————————
+
 MISTAKE 3 MariaDB 
 Going back to the UFW mistake we can find the server that contains the database 
 With finding the server we can portscan or find the port that receives the database information/OS information 
@@ -185,7 +191,9 @@ Session aborted
 The other vulnerabilities are as listed (MariaDB/MySQL Related):
 CVE:2012-5627
 CVE:2013-1861
+
 ————————————————
+
  MISTAKE 4 Common Vulns 
 Returning to the fact the origin server and host related servers are exposed you can find CVE’s that are related to the hardware or server 
 
@@ -215,6 +223,7 @@ zeromq uses CurveZMQ which is an authentication and encryption protocol for Zero
 
 Load balancing :
 ZeroMq has a builtin load balancer, more workers will increase performance in the cost of resources.
+
 ———————————————————————————
 
 PolyC2's Webserver and API will be handled by socketify. 

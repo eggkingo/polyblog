@@ -1,6 +1,8 @@
 # Polysphere Temp Blog
 
-POST
+---
+
+## POST
 
 Hehehe tor go funny
 
@@ -69,7 +71,7 @@ it will cause the CPU to be overloaded and work very slowly becoming a DOS
 
 ---
 
-ANNOUNCEMENT
+## ANNOUNCEMENT
 
 We're potentially looking into Quantum resilient encryption
 
@@ -137,7 +139,7 @@ https://en.wikipedia.org/wiki/NTRU
 
 ---
 
-POST
+## POST
 Summary: Argonhosting is a cheap hosting service that advertises powerful ddos protection, good security, and good hosting 
 
 
@@ -193,7 +195,7 @@ CVE-2021-3618
 
 ---
 
-ANNOUNCEMENT
+## ANNOUNCEMENT
 
 I am deciding to remake PolyC2 with golang and python
 
